@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-CA" style="background-color: white;">
+<html lang="en-CA">
 <head>
   <!-- created by Katrina Huang on November 16, 2024 -->
   <meta charset="UTF-8">
@@ -58,60 +58,64 @@
     top: 64px;
   }
   
-  h2.MiniA {
+  h2.mini-a {
     position: absolute;
     margin-top: 220px;
-    margin-left: 40px;
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: normal;
   }
   
-  h2.StudioA {
+  h2.studio-a {
     position: absolute;
     margin-top: 1580px;
-    margin-left: 40px;
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: normal;
   }
   
-  h2.RepackageA {
+  h2.repackage-a {
     position: absolute;
     margin-top: 2090px;
-    margin-left: 40px;
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: normal;
   }
   
-  h2.SpecialA {
+  h2.special-a {
     position: absolute;
     margin-top: 2090px;
     margin-left: 765px;
-    font-family: "Poppins", serif;
-    font-weight: 800;
-    font-style: normal;
+  }
+  
+  h2.title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    margin-left: 0px;
   }
   
   h2 {
-    margin-bottom: 15px;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     font-style: normal;
+    margin-left: 40px;
   }
   
-  .MA1 img, .MA2 img, .MA3 img, .MA4 img {
-    width: 300px;
-    height: 300px;
+  .album img {
     display: inline;
     float: left;
-    padding: 20px;
-    margin-top: 253px;
     margin-left: 22px;
+    padding: 20px;
   }
   
-  .MAT1, .MAT2, .MAT3, .MAT4, .MAT5, .MAT6, .MAT7, .MAT8, .MAT9, .MAT10, .MAT11, .MAT12, .SAT1, .SAT2, .SAT3, .SAT4, .RAT1, .RAT2, .SPAT1, .SPAT2 {
+  .mini-ac img {
+    margin-top: 253px;
+  }
+  
+  .mini-ac2 img {
+    margin-top: -200px;
+  }
+  
+  .studio-ac img {
+    margin-top: -127px;
+  }
+  
+  .rsp-ac img {
+    margin-top: -119px;
+  }
+  
+  .albumtext {
     width: 300px;
     height: 300px;
     display: inline;
@@ -124,42 +128,10 @@
     font-style: normal;
   }
   
-  .MA5 img, .MA6 img, .MA7 img, .MA8 img, .MA9 img, .MA10 img, .MA11 img, .MA12 img {
-    width: 300px;
-    height: 300px;
-    display: inline;
-    float: left;
-    padding: 20px;
-    margin-top: -200px;
-    margin-left: 22px;
-  }
-  
-  .SA1 img, .SA2 img, .SA3 img, .SA4 img {
-    width: 300px;
-    height: 300px;
-    display: inline;
-    float: left;
-    padding: 20px;
-    margin-top: -127px;
-    margin-left: 22px;
-  }
-  
-  .RA1 img, .RA2 img, .SPA1 img, .SPA2 img {
-    width: 300px;
-    height: 300px;
-    display: inline;
-    float: left;
-    padding: 20px;
-    margin-top: -119px;
-    margin-left: 22px;
-  }
-  
   #svtlogo img {
     position: absolute;
     top: -82px;
     left: -1px;
-    width: 200px;
-    height: 100px;
   }
   
   p {
@@ -181,231 +153,234 @@
   <h1>DISCOGRAPHY</h1>
   
 <div id="svtlogo">
-  <img src="svtlogo.png" alt="seventeen's logo with the words seventeen next to it">
+  <img src="svtlogo.png" alt="seventeen's logo with the words seventeen next to it" width="200" height="100">
 </div>
 </div>
-
-<h2 class="MiniA">Mini Albums</h2>
   
 <!-- mini album covers: row 1 -->
-<div class="MA1">
-  <img src="MA1.jpeg" alt="seventeen's first mini album cover">
+<h2 class="mini-a">Mini Albums</h2>
+  
+<div class="album">
+  <div class="mini-ac">
+    <img src="MA1.jpeg" alt="seventeen's first mini album cover" width="300" height="300">
 </div>
 
-<div class="MA2">
-  <img src="MA2.jpeg" alt="seventeen's second mini album cover">
+<div class="mini-ac">
+  <img src="MA2.jpeg" alt="seventeen's second mini album cover" width="300" height="300">
 </div>
   
-<div class="MA3">
-  <img src="MA3.jpeg" alt="seventeen's third mini album cover">
+<div class="mini-ac">
+  <img src="MA3.jpeg" alt="seventeen's third mini album cover" width="300" height="300">
 </div>
   
-<div class="MA4">
-  <img src="MA4.jpeg" alt="seventeen's fourth mini album cover">
+<div class="mini-ac">
+  <img src="MA4.jpeg" alt="seventeen's fourth mini album cover" width="300" height="300">
 </div>
-
+  
 <!-- mini album cover texts: row 1 -->
-<div class="MAT1">
-  <h2>17 CARAT</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2015 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">17 CARAT</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2015 | 6 Songs</p>
 </div>
   
-<div class="MAT2">
-  <h2>BOYS BE</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2015 | 5 Songs</p>
+<div class="albumtext">
+  <h2 class="title">BOYS BE</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2015 | 5 Songs</p>
 </div>
   
-<div class="MAT3">
-  <h2>Going Seventeen</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2016 | 8 Songs</p>
+<div class="albumtext">
+  <h2 class="title">Going Seventeen</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2016 | 8 Songs</p>
 </div>
   
-<div class="MAT4">
-  <h2>Al1</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2017 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">Al1</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2017 | 6 Songs</p>
 </div>
 
 <!-- mini album covers: row 2 -->
-<div class="MA5">
-  <img src="MA5.jpeg" alt="seventeen's fifth mini album cover">
+<div class="mini-ac2">
+  <img src="MA5.jpeg" alt="seventeen's fifth mini album cover" width="300" height="300">
 </div>
 
-<div class="MA6">
-  <img src="MA6.jpeg" alt="seventeen's sixth mini album cover">
+<div class="mini-ac2">
+  <img src="MA6.jpeg" alt="seventeen's sixth mini album cover" width="300" height="300">
 </div>
   
-<div class="MA7">
-  <img src="MA7.jpeg" alt="seventeen's seventh mini album cover">
+<div class="mini-ac2">
+  <img src="MA7.jpeg" alt="seventeen's seventh mini album cover" width="300" height="300">
 </div>
   
-<div class="MA8">
-  <img src="MA8.jpeg" alt="seventeen's eighth mini album cover">
+<div class="mini-ac2">
+  <img src="MA8.jpeg" alt="seventeen's eighth mini album cover" width="300" height="300">
 </div>
   
 <!-- mini album cover texts: row 2 -->
-<div class="MAT5">
-  <h2>YOU MAKE MY DAY</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2018 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">YOU MAKE MY DAY</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2018 | 6 Songs</p>
 </div>
   
-<div class="MAT6">
-  <h2>YOU MADE MY DAWN</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2019 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">YOU MADE MY DAWN</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2019 | 6 Songs</p>
 </div>
   
-<div class="MAT7">
-  <h2>Heng:garæ</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2020 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">Heng:garæ</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2020 | 6 Songs</p>
 </div>
   
-<div class="MAT8">
-  <h2>Your Choice</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2021 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">Your Choice</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2021 | 6 Songs</p>
 </div>
   
 <!-- mini album covers: row 3 -->
-<div class="MA9">
-  <img src="MA9.jpeg" alt="seventeen's ninth mini album cover">
+<div class="mini-ac2">
+  <img src="MA9.jpeg" alt="seventeen's ninth mini album cover" width="300" height="300">
 </div>
 
-<div class="MA10">
-  <img src="MA10.jpeg" alt="seventeen's tenth mini album cover">
+<div class="mini-ac2">
+  <img src="MA10.jpeg" alt="seventeen's tenth mini album cover" width="300" height="300">
 </div>
   
-<div class="MA11">
-  <img src="MA11.jpeg" alt="seventeen's eleventh mini album cover">
+<div class="mini-ac2">
+  <img src="MA11.jpeg" alt="seventeen's eleventh mini album cover" width="300" height="300">
 </div>
   
-<div class="MA12">
-  <img src="MA12.jpeg" alt="seventeen's twelfth mini album cover">
+<div class="mini-ac2">
+  <img src="MA12.jpeg" alt="seventeen's twelfth mini album cover" width="300" height="300">
 </div>
   
 <!-- mini album cover texts: row 3 -->
-<div class="MAT9">
-  <h2>Attacca</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2021 | 7 Songs</p>
+<div class="albumtext">
+  <h2 class="title">Attacca</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2021 | 7 Songs</p>
 </div>
   
-<div class="MAT10">
-  <h2>FML</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2023 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">FML</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2023 | 6 Songs</p>
 </div>
   
-<div class="MAT11">
-  <h2>SEVENTEENTH HEAVEN</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2023 | 8 Songs</p>
+<div class="albumtext">
+  <h2 class="title">SEVENTEENTH HEAVEN</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2023 | 8 Songs</p>
 </div>
   
-<div class="MAT12">
-  <h2>SPILL THE FEELS</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2024 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">SPILL THE FEELS</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2024 | 6 Songs</p>
 </div>
   
 <hr style="width: 100%;position: absolute;top: 1613px;"> 
   
-<h2 class="StudioA">Studio Albums</h2>
-  
 <!-- studio album covers -->
-<div class="SA1">
-  <img src="SA1.jpeg" alt="seventeen's first studio album cover">
+<h2 class="studio-a">Studio Albums</h2>
+  
+<div class="studio-ac">
+  <img src="SA1.jpeg" alt="seventeen's first studio album cover" width="300" height="300">
 </div>
 
-<div class="SA2">
-  <img src="SA2.jpeg" alt="seventeen's second studio album cover">
+<div class="studio-ac">
+  <img src="SA2.jpeg" alt="seventeen's second studio album cover" width="300" height="300">
 </div>
   
-<div class="SA3">
-  <img src="SA3.jpeg" alt="seventeen's third studio album cover">
+<div class="studio-ac">
+  <img src="SA3.jpeg" alt="seventeen's third studio album cover" width="300" height="300">
 </div>
   
-<div class="SA4">
-  <img src="SA4.jpeg" alt="seventeen's fourth studio album cover">
+<div class="studio-ac">
+  <img src="SA4.jpeg" alt="seventeen's fourth studio album cover" width="300" height="300">
 </div>
   
 <!-- studio album cover texts -->
-<div class="SAT1">
-  <h2>LOVE&LETTER</h2>
+<div class="albumtext">
+  <h2 class="title">LOVE&LETTER</h2>
   <p><em>SEVENTEEN</em></p>
   <p>2016 | 10 Songs</p>
 </div>
   
-<div class="SAT2">
-  <h2>TEEN, AGE</h2>
+<div class="albumtext">
+  <h2 class="title">TEEN, AGE</h2>
   <p><em>SEVENTEEN</em></p>
   <p>2017 | 13 Songs</p>
 </div>
   
-<div class="SAT3">
-  <h2>An Ode</h2>
+<div class="albumtext">
+  <h2 class="title">An Ode</h2>
   <p><em>SEVENTEEN</em></p>
   <p>2019 | 11 Songs</p>
 </div>
   
-<div class="SAT4">
-  <h2>Face the Sun</h2>
+<div class="albumtext">
+  <h2 class="title">Face the Sun</h2>
   <p><em>SEVENTEEN</em></p>
   <p>2022 | 9 Songs</p>
 </div>
   
 <hr style="width: 100%;position: absolute;top: 2120px;">
-
-<h2 class="RepackageA">Repackage Albums</h2>
   
 <!-- repackage album covers -->
-<div class="RA1">
-  <img src="RA1.jpeg" alt="seventeen's first repackage album cover">
+<h2 class="repackage-a">Repackage Albums</h2>
+
+<div class="rsp-ac">
+  <img src="RA1.jpeg" alt="seventeen's first repackage album cover" width="300" height="300">
 </div>
 
-<div class="RA2">
-  <img src="RA2.jpeg" alt="seventeen's second repackage album cover">
+<div class="rsp-ac">
+  <img src="RA2.jpeg" alt="seventeen's second repackage album cover" width="300" height="300">
 </div>
   
-<h2 class="SpecialA">Special Albums</h2>
 <!-- special album covers -->
-<div class="SPA1">
-  <img src="SPA1.jpeg" alt="seventeen's eleventh mini album cover">
+<h2 class="special-a">Special Albums</h2>
+  
+<div class="rsp-ac">
+  <img src="SPA1.jpeg" alt="seventeen's eleventh mini album cover" width="300" height="300">
 </div>
   
-<div class="SPA2">
-  <img src="SPA2.jpeg" alt="seventeen's twelfth mini album cover">
+<div class="rsp-ac">
+  <img src="SPA2.jpeg" alt="seventeen's twelfth mini album cover" width="300" height="300">
 </div>
   
 <!-- repackage album cover texts -->
-<div class="RAT1">
-  <h2>Love&Letter </h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2016 | 15 Songs</p>
+<div class="albumtext">
+  <h2 class="title">Love&Letter </h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2016 | 15 Songs</p>
 </div>
   
-<div class="RAT2">
-  <h2>SECTOR 17</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2022 | 13 Songs</p>
+<div class="albumtext">
+  <h2 class="title">SECTOR 17</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2022 | 13 Songs</p>
 </div>
 
 <!-- special album cover texts -->
-<div class="SPAT1">
-  <h2>DIRECTOR'S CUT</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2018 | 4 Songs</p>
+<div class="albumtext">
+  <h2 class="title">DIRECTOR'S CUT</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2018 | 4 Songs</p>
 </div>
   
-<div class="SPAT2">
-  <h2>Semicolon</h2>
-  <p><em>SEVENTEEN</em></p>
-  <p>2020 | 6 Songs</p>
+<div class="albumtext">
+  <h2 class="title">Semicolon</h2>
+    <p><em>SEVENTEEN</em></p>
+    <p>2020 | 6 Songs</p>
+</div>
 </div>
 </body>
 </html>
